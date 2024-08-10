@@ -71,6 +71,10 @@ System.out.println("Array arr printing");
 
 for (int index = 0; index < arr.length; index++) {
     System.out.print(" "+arr[index]);
+    if (index==arr.length-1) {
+System.out.println();
+        
+    }
     
 }
 System.out.println("Array arr1 printing\n");
